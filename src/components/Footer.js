@@ -7,10 +7,10 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-4">
-                        <p className="btn btn-outline-secondary rounded-pill"><i class="fas fa-phone-alt fs-2 p-3"></i><span className="m-3 fs-5">03234774372</span></p>
+                     <a href="tel:+923234774372">   <p className="btn btn-outline-secondary rounded-pill"><i class="fas fa-phone-alt fs-2 p-3"></i><span className="m-3 fs-5">+92 3234774372</span></p></a>
                     </div>
                     <div className="col-sm-4">
-                        <p className="btn btn-outline-secondary rounded-pill"><i class="fas fa-envelope fs-2 p-3"></i><span className="m-3 fs-5">bilal.arif2917@gmail.com</span></p>
+                    <a href="mailto:bilal.arif2917@gmail.com?">  <p className="btn btn-outline-secondary rounded-pill"><i class="fas fa-envelope fs-2 p-3"></i><span className="m-3 fs-5">bilal.arif2917@gmail.com</span></p></a>
                     </div>
                     <div className="col-sm-4">
                         <SocialLinks />

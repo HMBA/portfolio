@@ -22,6 +22,7 @@ nav a.nav-link {
 .card-style {
   background-color: rgb(17, 17, 17);
 }
+ 
 /* **************************************************** */
 .service-icon {
   font-size: 70px;
@@ -44,7 +45,6 @@ nav a.nav-link {
   /* box-shadow: 0px 0px 8px 0px wheat;  */
   transition: all 0.3s;
   color: whitesmoke;
-  border: solid 1px whitesmoke;
 }
 /* ====================Form========================= */
 /* .form {
@@ -60,6 +60,6 @@ form:hover {
 }
 .project-card:hover {
   transition: all 0.3s;
-  box-shadow: 0px 0px 8px 0px wheat;
+  opacity: 50%;
 }
- 
+

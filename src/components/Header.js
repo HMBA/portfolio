@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from ''
+import Image from '../bilalnew.png'
 import SocialLinks from './SocialLinks'
 const Header = () => {
   return (
