@@ -1,0 +1,65 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+/* ************************Navbar*************************** */
+
+nav a.nav-link {
+  cursor: pointer;
+}
+
+.nav-item :hover {
+  background-image: url("sound.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  transition: all 0.5s;
+}
+/*******************Header********************/
+.hello {
+  font-size: 80px;
+  font-family: Bradley Hand, cursive;
+}
+/*************************Cards**************************/
+.card-style {
+  background-color: rgb(17, 17, 17);
+}
+/* **************************************************** */
+.service-icon {
+  font-size: 70px;
+}
+.social-icon {
+  list-style: none;
+  display: flex;
+}
+
+/* ----------------scroll-button------------------ */
+.scroll-button {
+  float: right;
+}
+/* ------------------Contact---------------------------- */
+.contact-box {
+  background-color: rgb(17, 17, 17);
+  color:#6c757d;
+}
+.contact-box :hover {
+  /* box-shadow: 0px 0px 8px 0px wheat;  */
+  transition: all 0.3s;
+  color: whitesmoke;
+  border: solid 1px whitesmoke;
+}
+/* ====================Form========================= */
+/* .form {
+  background-color: rgb(17, 17, 17);
+}
+form:hover {
+  transition: all 0.3s;
+  box-shadow: 0px 0px 8px 0px wheat;
+} */
+/* ===================project==================== */
+.project-card {
+  background-color: rgb(17, 17, 17);
+}
+.project-card:hover {
+  transition: all 0.3s;
+  box-shadow: 0px 0px 8px 0px wheat;
+}
+ 
