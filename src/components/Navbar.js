@@ -29,7 +29,7 @@ const navbar = () => {
               <a className="nav-link active" href="#Contact">Contact</a>
             </li>
             <li className="nav-item">
-              <a className="ms-5 nav-link active rounded-pill btn btn-outline-secondary" href="#">Contact me &nbsp; <i class="fas fa-handshake"></i></a>
+              <a className="ms-5 nav-link active rounded-pill btn btn-outline-secondary" href="#Footer">Contact me &nbsp; <i class="fas fa-handshake"></i></a>
             </li>
           </ul>
         </div>

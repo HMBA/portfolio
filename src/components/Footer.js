@@ -3,7 +3,7 @@ import SocialLinks from './SocialLinks';
 
 const Footer = () => {
     return (
-        <footer className="bg-dark p-5 text-secondary">
+        <footer id='Footer' className="bg-dark p-5 text-secondary">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-4">

@@ -32,7 +32,7 @@ const Header = () => {
                   results to our clients."</p>
 
 
-                <a href="#" className="btn btn-outline-secondary border-2 mt-3 rounded-pill" >Get Resume &nbsp; <i class="fas fa-download fa-sm"></i></a>
+                <a target="_blank" href="assests\Muhammad_Bilal_CV.pdf" className="btn btn-outline-secondary border-2 mt-3 rounded-pill" >Get Resume &nbsp; <i class="fas fa-download fa-sm"></i></a>
 
 
 

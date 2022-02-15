@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const ProjectCard = ({projectDataProps})=>{
@@ -17,13 +18,16 @@ const ProjectCard = ({projectDataProps})=>{
 return(
     <>
 <div className="col-sm-4 mb-3" key={curElem.id}>
-        <div className="p-4 project-card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <img src={curElem.thumbnail} className="img-fluid mb-4"/>  
-            <h5 className="text-center">{curElem.description}</h5>          
+  
+        <div className="p-4 project-card">
+            <img src={curElem.thumbnail} className="img-fluid mb-4"  data-bs-toggle="modal" data-bs-target={`#id_${curElem.id}`}/>  
+            <h5 className="text-center">
+              <a target="_blank" class="link-light text-decoration-none" href={curElem.link}>{curElem.description}</a>
+              </h5>          
 
         </div>
 
-        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className="modal fade" id={`id_${curElem.id}`} data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby={curElem.id} aria-hidden="true">
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
@@ -48,6 +52,9 @@ return(
 
 
 export default ProjectCard;
+
+
+
 
 
 
